@@ -19,6 +19,7 @@ Meets once a week for 13 weeks, after school.
 In an elementary school either in a classroom or computer lab.
 
 **Why**
+
 For me, to overcome imposter syndrom by teaching others and wanting to be around a group of people who want to learn, they just happen to be kids. 
 
 For them, to hopefully give them insight on design, development and 3d printing as well as different ways to solve problems. I try and stress everything we're creating, even if i came up with it, is to solve a problem that we have.
