@@ -1,40 +1,161 @@
 <!doctype html>
 <body>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600|Pangolin" rel="stylesheet">
 </head>
-<img src="springvilleMakerClub_logo.png">
-  <h2>What is maker club?</h2>
-  <p></p>
-<h2>Schedule</h2>
+<div class="container grid">
+<div class="navigation col-1-4">
+<img src="springvilleMakerClub_logo-tighter.png" height="80px">
 <ul class="no-list-style">
-  <li><b>January</b></li>
-  <li>Tuesday, January 9th | First Club Meeting</li>
-  <li>Tuesday, January 16th | </li>
-  <li>Tuesday, January 23rd | </li>
-  <li>Tuesday, January 30th | </li>
-   <li><b>February</b></li>
-   <li>Tuesday, February 6th | </li>
-      <li>Tuesday, February 13th | </li>
-         <li>Tuesday, February 20th | </li>
-            <li>Tuesday, February 27th | </li>
-            <li><b>March</b></li>
-            <li>Tuesday, March 6th | </li>
-               <li>Tuesday, March 13th | </li>
-                  <li>Tuesday, March 20th | </li>
-                     <li>Tuesday, March 27th | </li>
-                     <li><b>April</b></li>
-                     <li>Tuesday, April 3rd | </li>
-                        <li>Tuesday, April 10th | </li>
-                           <li>Tuesday, April 17th | </li>
-                              <li>Tuesday, April 24th | </li>
-                              <li><b>May</b></li>
-                              <li>Tuesday, May 1st | </li>
+  <li>About</li>
+  <li>Schedule</li>
+</ul>
+</div>
+  
+  <div class="page-content col-2-3">
+    <div class="schedule-page">
+      <div class="page-header">
+<h1>Schedule</h1>
+<div class="page-sub-navigation">
+  <!-- when month comes sticks here -->
+</div>
+</div>
+<div class="interior-content">
+<ul class="no-list-style">
+  <h3>January</h3>
+  <li>Tuesday, January 9th </li>
+  <ul class="no-list-style">
+    <li>First Club Meeting</li>
+  </ul>
+  <li>Tuesday, January 16th </li>
+  <li>Tuesday, January 23rd </li>
+  <li>Tuesday, January 30th </li>
+</br>
+</ul>
+<ul class="no-list-style">
+   <h3>February</h3>
+   <li>Tuesday, February 6th  </li>
+      <li>Tuesday, February 13th  </li>
+         <li>Tuesday, February 20th  </li>
+            <li>Tuesday, February 27th  </li>
+          </ul>
+          <ul class="no-list-style">
+            <h3>March</h3>
+            <li>Tuesday, March 6th  </li>
+               <li>Tuesday, March 13th  </li>
+                  <li>Tuesday, March 20th  </li>
+                     <li>Tuesday, March 27th  </li>
+                   </ul>
+                   <ul class="no-list-style">
+                     <h3>April</h3>
+                     <li>Tuesday, April 3rd </li>
+                        <li>Tuesday, April 10th  </li>
+                           <li>Tuesday, April 17th  </li>
+                              <li>Tuesday, April 24th  </li>
+                            </ul>
+                            <ul class="no-list-style">
+                              <h3>May</h3>
+                              <li>Tuesday, May 1st  </li>
             
 </ul>
+</div>
+<div class="about-page">
+</div>
+</div>
 </body>
 <style>
+  body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Barlow', sans-serif;
+    font-weight:400;
+  }
+  .header{
+    /*height:80px;
+    background-color:#007034;*/
+  }
+  .header img{
+    margin-left:30px;
+    margin-top:20px;
+  }
+  .navigation{
+    border-right:1px solid #c1c1c1;
+    height: 900px;
+    position:fixed;
+  }
+  .navigation img{
+    padding-left:20px;
+    padding-top:10px;
+  }
+  .page-content{
+    margin-left:22.2%;
+  }
+    
+  .page-header{
+    position:fixed;
+    background-color:white;
+    height:80px;
+    z-index:100;
+    width: 100%;
+    border-bottom:2px solid #c1c1c1;
+    
+  }
+  .interior-content{
+    position:relative;
+    top:110px;
+  }
   .no-list-style{
     list-style-type:none;
+  }
+  h3{
+    font-weight:600;
+    margin-bottom:-4px;
+  }
+  h1{
+    margin-left:40px;
+    color:#007034;
+  }
+  
+  /*----------------------------------
+     own grid
+  ----------------------------------*/
+  .grid{
+
+  }
+  .grid:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  [class*='col-'] {
+      float: left;
+  }
+  .col-2-3 {
+      width: 66.66%;
+  }
+  .col-1-3 {
+      width: 32%;
+  }
+  .col-1-5{
+    width:2%;
+  }
+  .col-1-2 {
+      width: 50%;
+  }
+  [class*='col-'] {
+      padding-right: 5px;
+  }
+  [class*='col-']:last-of-type {
+      padding-right: 0;
+  }
+  .grid-pad {
+      padding: 20px 0 20px 20px;
+  }
+  .grid-pad > [class*='col-']:last-of-type {
+      padding-right: 20px;
+  }
+  .col-1-2 img, .col-1-3 img {
+      width: 100%;
   }
   </style>
 <script>
